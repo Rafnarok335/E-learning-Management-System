@@ -47,7 +47,7 @@
 	<h1 style="color:orange ;">LMS Home</h1>
 	<hr style="border-color: orange;">
 <div class= "container" >
-<form>
+<form action="{% url 'login'  %}" method="post">
 	<label style="color:orange ;font-size: 20px;" for="uname">User name:</label><br>
 	<input class ="text" type="textfield" name="username" id ="uname" placeholder="Enter Username"><br>
 	<label style="color:orange ;font-size: 20px;" for="pass">Password:</label><br>
